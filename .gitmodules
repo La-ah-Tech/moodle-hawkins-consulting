@@ -1,0 +1,4 @@
+[submodule "theme/lambda2"]
+	path = theme/lambda2
+	url = https://github.com/La-ah-Tech/theme_lambda2.git
+	branch = hawkins-prod
