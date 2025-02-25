@@ -1,5 +1,21 @@
 # core_question (subsystem) Upgrade notes
 
+## 4.5.2+
+
+### Added
+
+- Question bank Condition classes can now implement a function called "filter_invalid_values($filterconditions)" to remove anything from the filterconditions array which is invalid or should not be there.
+
+  For more information see [MDL-83784](https://tracker.moodle.org/browse/MDL-83784)
+
+## 4.5.2
+
+### Added
+
+- The `get_bulk_actions()` method on the base `plugin_features_base` class has been changed to allow a qbank view object to be passed through. This is nullable and therefore optional for qbank plugins which don't need to do so.
+
+  For more information see [MDL-79281](https://tracker.moodle.org/browse/MDL-79281)
+
 ## 4.5
 
 ### Added
